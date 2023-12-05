@@ -1,12 +1,12 @@
 package com.example.calculator.main
 
-import com.example.calculator.calculator.CalcFacade
+import com.example.calculator.calculator.CalculatorImpl
 
 fun main() {
     var num1 = 100
     var num2 = 30
 
-    var calculator = CalcFacade()
+    var calculator = CalculatorImpl()
 
     println("$num1 + $num2 = ${calculator.add(num1, num2)}")
     println("$num1 - $num2 = ${calculator.sub(num1, num2)}")
