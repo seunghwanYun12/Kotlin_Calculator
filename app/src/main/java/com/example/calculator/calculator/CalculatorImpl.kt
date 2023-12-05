@@ -1,7 +1,7 @@
-package com.example.calculator
+package com.example.calculator.calculator
 
-class Calculator(operator:AbstractOperation)  {
-    private var operator:AbstractOperation
+class CalculatorImpl(operator: AbstractOperation)  {
+    private var operator: AbstractOperation
 
     init {
         this.operator = operator
